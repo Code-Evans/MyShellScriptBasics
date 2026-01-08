@@ -16,6 +16,8 @@ structure, and maintainability**.
 - Write readable, modular, and reusable scripts
 - Apply shell-specific design patterns
 - Build production-style scripts using POSIX tools
+- Handle structured data formats like XML, SGML, and DTD using shell pipelines and tools
+- Gain experience in processing both unstructured and structured data
 
 ---
 
@@ -29,6 +31,7 @@ structure, and maintainability**.
 | `functions/` | Function design and modular scripting |
 | `patterns/` | Common shell design patterns |
 | `text_processing/` | grep, awk, sed, pipelines |
+| `markup_processing/` | XML, SGML, DTD |
 | `projects/` | End-to-end scripts applying multiple concepts |
 | `snippets/` | Reusable shell code snippets |
 | `notes/` | Lessons learned and best practices |
