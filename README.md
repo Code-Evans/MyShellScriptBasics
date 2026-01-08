@@ -23,6 +23,7 @@ structure, and maintainability**.
 
 | Directory | Description |
 |---------|-------------|
+| `basic_commands/` | Basic Shell Commands Cheat Sheet |
 | `fundamentals/` | Variables, input/output, arithmetic, quoting |
 | `control_flow/` | if/else, case, loops |
 | `functions/` | Function design and modular scripting |
