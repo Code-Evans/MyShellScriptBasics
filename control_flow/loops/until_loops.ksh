@@ -1,27 +1,19 @@
 #!/usr/bin/env ksh
 
 ################################################################################
-# Name : Function
+# Name : Until loop
 #-------------------------------------------------------------------------------
-# Description : Demonstrates functions in KornShell.
+# Description : Demonstrates until loop logic in KornShell.
 #-------------------------------------------------------------------------------
 # Modification History:
 # 01/10/26 Adrian - Initial Creation.
 ################################################################################
 
-test_var=0
+#!/bin/ksh
 
-# This function simply sets the test_var
-# variable to 39.
-foo() {
-    test_var=39
-}
+i=1
+until [ $i -gt 5 ]; do
+    echo "Number: $i"
+    i=$((i+1))
+done
 
-# Invoke function
-foo
-
-if [ $test_var -eq 0 ]; then
-    echo "variable not set"
-else
-    echo "variable is set"
-fi

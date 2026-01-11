@@ -50,3 +50,7 @@ Try each command directly in the terminal to understand its behavior.
 - Prepare for real-world shell automation and enterprise systems
 
 > 💡 Tip: Practice each command with different flags and inputs.
+
+## 🔍 Explore more in this repositories
+- https://github.com/RehanSaeed/Bash-Cheat-Sheet
+- https://devhints.io/bash 
