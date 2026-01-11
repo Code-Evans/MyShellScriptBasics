@@ -4,7 +4,7 @@
 # Name : Variables
 #-------------------------------------------------------------------------------
 # Description : Demonstrate variable Declaration, assignment,
-# expansion, and substitution
+#               expansion, and substitution
 #-------------------------------------------------------------------------------
 # Modification History:
 # 01/09/26 Adrian - Initial Creation.
@@ -102,6 +102,6 @@ print "Today is: ${today}"
 # ---------------------------
 # End of Script
 # ---------------------------
-exit 0
+# exit 0
 
 

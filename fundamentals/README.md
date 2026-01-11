@@ -25,6 +25,7 @@ production environment and throughout the training.
 |------|-------------|
 | `shebang.ksh` | Special line at the beginning of a script |
 | `comment.ksh` | Define the usage of any code or function |
+| `expressions.md` | Expression Overview and rules to follow |
 | `variables.md` | Variable Overview and rules to follow |
 | `variables.ksh` | Variable declaration, assignment, and usage |
 | `input_output.ksh` | Reading input and producing output |
