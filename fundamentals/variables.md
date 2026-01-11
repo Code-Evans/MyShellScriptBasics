@@ -78,7 +78,7 @@ Assume the following variables are set:
 
 ```ksh
 file=/root/dir/sub/file.txt
-var= 5
+var= 
 ```
 
 | Statement             | Result                  |           Explanation                                                                   |
