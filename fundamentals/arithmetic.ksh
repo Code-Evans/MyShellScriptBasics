@@ -17,8 +17,8 @@
 count=10
 value=3
 
-print "count = ${count}"
-print "value = ${value}"
+echo "count = ${count}"
+echo "value = ${value}"
 
 # ---------------------------
 # Arithmetic Expansion
@@ -35,19 +35,19 @@ print "Modulo         : $((count % value))"
 # let Builtin
 # ---------------------------
 
-print "--- let builtin ---"
+echo "--- let builtin ---"
 let result=count+value
-print "Result using let: ${result}"
+echo "Result using let: ${result}"
 
 let count+=1
-print "Incremented count: ${count}"
+echo "Incremented count: ${count}"
 
 # ---------------------------
 # Arithmetic in Assignments
 # ---------------------------
 
 total=$((count * value))
-print "Total = ${total}"
+echo "Total = ${total}"
 
 # ---------------------------
 # Numeric Comparisons
@@ -57,14 +57,14 @@ print "--- Numeric Comparisons ---"
 
 if (( count > value ))
 then
-    print "count is greater than value"
+    echo "count is greater than value"
 fi
 
 if (( count == value ))
 then
-    print "count is equal to value"
+    echo "count is equal to value"
 else
-    print "count is not equal to value"
+    echo "count is not equal to value"
 fi
 
 # ---------------------------
