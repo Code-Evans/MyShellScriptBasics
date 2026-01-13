@@ -1,4 +1,4 @@
-# Loops in Shell Scripting
+# Design patterns in Shell Scripting
 
 ## 📌 Overview
 
